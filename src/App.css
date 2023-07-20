@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.calculator {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.calculator-grid {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+.calculator-grid input {
+  grid-column: span 6;
+}
